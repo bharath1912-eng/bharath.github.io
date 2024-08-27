@@ -11,43 +11,42 @@
             <meta name="Content-Security-Policy" content="default, self">
             <meta property="og:title" content="Frountend Training">
             <meta property="og:description" content="how to create a Web Page">
-            <meta property="og:image" content="U">
-            <meta property="og:url" content="https://images.shiksha.com/mediadata/shikshaOnline/mailers/2022/naukri-learning/what-is/What-is-Frontend-Development.jpg">
+            <meta property="og:image" content="https://img.freepik.com/free-vector/frontend-developer-typographic-header-website-interface-design-improvement-web-page-programming-coding-testing-it-profession-isolated-flat-vector-illustration_613284-304.jpg">
+            <meta property="og:url" content=https://bharath1912-eng.github.io/bharath.github.io/>
             <meta name="theme-color" content="#426544">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <title> WELCOME to Frountend </title></head>
             <style>
                .nav{
-                padding: 10px;
+                padding: px;
                 margin-top: 5px;
                }
                 .para{
-                    background-color: burlywood;
+                    background-color: rgb(135, 222, 196);
                     padding: 10px;
                     margin-left: 10px;
                     width: 1000px;
 
                 }
             </style>
-
 </head>
 <body> 
         <header>
             <nav>
                 <div>
-                <a style="margin-left: 200px;" href="https://www.w3schools.com/"accesskey ="h" target="_blank" tabindex="1">home</a>
-                <a style="margin-left: 200px;" href="https://www.w3schools.com/om"accesskey ="c" target="_blank" tabindex="2">contact</a>
-                <a style="margin-left: 200px;" href="https:www.google.com"accesskey ="a" target="_blank"tabindex="3">about</a>
-                <a style="margin-left: 200px;" href="https:www.google.com"accesskey ="e" target="_blank"tabindex="4">Entertainment</a>
+                <a href="https://www.w3schools.com/"accesskey ="h" target="_blank" tabindex="1">home</a>
+                <a style="margin-left: 20%;" href="https://www.w3schools.com/om"accesskey ="c" target="_blank" tabindex="2">contact</a>
+                <a style="margin-left: 20%;" href="https:www.google.com"accesskey ="a" target="_blank"tabindex="3">about</a>
+                <a style="margin-left: 20%;" href="https:www.google.com"accesskey ="e" target="_blank"tabindex="4">Entertainment</a>
             </div>
                 </nav>
         </header>
         <main>
             
           <section class="para">
-            <h1 style="color:rgb(50, 50, 120);" data-bharath="this para about Frountend"><ins>What is Frountend</ins></h1>
+            <h1 style="color:rgb(50, 50, 120);" data-bharath="this para about Frountend">Frountend</h1>
             <p>(Data attribute)</p>
-            <p><b> Front-end development primarily focuses on user experience. Using the related coding and design techniques, you as front-end developers build the elements of an application that are directly accessed by end-users with a goal of rendering the entire interface elegant, easy to use, fast, and secure, fostering user engagement and interaction.</b></b></p>
+            <p> Front-end development primarily focuses on user experience. Using the related coding and design techniques, you as front-end developers build the elements of an application that are directly accessed by end-users with a goal of rendering the entire interface elegant, easy to use, fast, and secure, fostering user engagement and interaction.</p>
             </section>
           <hr>
           <section class="para">
@@ -66,13 +65,54 @@
             <p >JavaScript (JS) is a programming language that developers use to make websites interactive. It's a client-side scripting language that's considered a core technology of the World Wide Web.</p>
           </section>
           <hr>
-          <div>
-          <legend> Personal Details:</legend>
-         Enter Your Name:<input type="text"><br>
-         Enter Your Moble Number:<input type="number"><br>
-         Enter Your Gender:<input type="radio"
-                </div>
         </main>
+           <form action="action-page.php" method="post">
+        <div>
+            <label for="Fnamr">FirstName:</label>
+            <input type="text" name="firstname" id="firstname" required min ="6" max="20" placeholder="User name" autofocus="true">
+        </div>
+        <div>
+            <label for="">Emai: </label>
+            <input type="email" name="email"required id="email"pattern=[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address" placeholder="user email" >
+        </div>
+
+        <div>
+            <label for="">DOB :</label>
+            <input type="date"name="DOB" id="DOB"required>
+        </div>
+
+        <div>
+            <label for="">Phone No:</label>
+            <input type="tel" name="phone" id="phone"required>
+        </div>
+
+        <div>
+            <label for="">City :</label>
+            <select name="city" onchange=""required>
+                <option selected value="">Chennai</option>
+                <option value="">Madurai</option>
+                <option value="">Trichy</option>
+                <option value="">Salem</option>
+            </select>
+        </div>
+        <div> 
+            <label for="">Gender:</label>
+            Male <input type="radio" name="gender" id="m">
+            Female <input type="radio" name="gender" id="m">
+        </div>
+        <div>
+            <label for="">PinCode:</label>
+            <input type="number" name="pin" id="pin">
+        </div>
+        <div>
+        <label for="">checkbox:</label>
+        <input type="checkbox" name="terms" id="terms">
+    </div>
+    <div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </div>
+    </form>
         <footer inert>
             <div>
 
